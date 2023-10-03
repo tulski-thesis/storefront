@@ -2,7 +2,7 @@ import { useCheckout } from "@lib/context/checkout-context"
 import Button from "@modules/common/components/button"
 import Checkbox from "@modules/common/components/checkbox"
 import Spinner from "@modules/common/icons/spinner"
-import BillingAddress from "../billing_address"
+import BillingAddress from "../billing-address"
 import ShippingAddress from "../shipping-address"
 
 const Addresses = () => {
