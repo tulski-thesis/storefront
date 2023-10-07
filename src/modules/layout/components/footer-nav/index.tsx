@@ -14,7 +14,7 @@ const FooterNav = () => {
       <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between">
         <div>
           <Link href="/" className="text-xl-semi uppercase">
-            Acme
+            tulski
           </Link>
         </div>
         <div className="text-small-regular grid grid-cols-3 gap-x-10 md:gap-x-16">
@@ -77,11 +77,11 @@ const FooterNav = () => {
             </div>
           )}
           <div className="flex flex-col gap-y-2">
-            <span className="text-base-semi">Medusa</span>
+            <span className="text-base-semi">tulski</span>
             <ul className="grid grid-cols-1 gap-y-2">
               <li>
                 <a
-                  href="https://github.com/medusajs"
+                  href="https://github.com/tulski"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -89,21 +89,8 @@ const FooterNav = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://docs.medusajs.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/medusajs/nextjs-starter-medusa"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Source code
+                <a href="https://tulski.com" target="_blank" rel="noreferrer">
+                  Website
                 </a>
               </li>
             </ul>
@@ -112,7 +99,7 @@ const FooterNav = () => {
       </div>
       <div className="flex flex-col-reverse gap-y-4 justify-center xsmall:items-center xsmall:flex-row xsmall:items-end xsmall:justify-between">
         <span className="text-xsmall-regular text-gray-500">
-          © Copyright 2022 ACME
+          © Copyright 2023 tulski
         </span>
         <div className="min-w-[316px] flex xsmall:justify-end">
           <CountrySelect />
