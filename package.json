@@ -62,5 +62,8 @@
   },
   "engines": {
     "npm": "Please use Yarn instead"
+  },
+  "volta": {
+    "node": "18.18.0"
   }
 }
