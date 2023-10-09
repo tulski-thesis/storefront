@@ -16,11 +16,11 @@ const Hero = () => {
         <UnderlineLink href="/store">Explore products</UnderlineLink>
       </div>
       <Image
-        src="/hero.webp"
+        src="/hero.jpg"
         loading="eager"
         priority={true}
         quality={90}
-        alt="Photo by @thevoncomplex https://unsplash.com/@thevoncomplex"
+        alt="Photo by @mrreks https://unsplash.com/@mrreks"
         className="absolute inset-0"
         draggable="false"
         fill
