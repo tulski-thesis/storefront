@@ -2,6 +2,7 @@ const { withStoreConfig } = require("./store-config")
 const store = require("./store.config.json")
 
 module.exports = withStoreConfig({
+  output: "standalone",
   experimental: {
     serverActions: true,
     serverComponentsExternalPackages: [
@@ -11,9 +12,6 @@ module.exports = withStoreConfig({
   },
   features: store.features,
   reactStrictMode: true,
-  images: {
-    domains: ["localhost"],
-  },
 })
 
 console.log("next.config.js", JSON.stringify(module.exports, null, 2))

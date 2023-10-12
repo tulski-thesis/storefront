@@ -1,6 +1,6 @@
 "use client"
 
-import { MEDUSA_BACKEND_URL, queryClient } from "@lib/config"
+import { BACKEND_URL, queryClient } from "@lib/config"
 import { AccountProvider } from "@lib/context/account-context"
 import { CartDropdownProvider } from "@lib/context/cart-dropdown-context"
 import { MobileMenuProvider } from "@lib/context/mobile-menu-context"
@@ -10,7 +10,7 @@ import { MedusaProvider, CartProvider } from "medusa-react"
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
     <MedusaProvider
-      baseUrl={MEDUSA_BACKEND_URL}
+      baseUrl={BACKEND_URL}
       queryClientProviderProps={{
         client: queryClient,
       }}
