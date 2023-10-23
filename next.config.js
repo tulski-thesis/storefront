@@ -12,6 +12,9 @@ module.exports = withStoreConfig({
   },
   features: store.features,
   reactStrictMode: true,
+  images: {
+    domains: ["assets.myntassets.com"],
+  }
 })
 
 console.log("next.config.js", JSON.stringify(module.exports, null, 2))
