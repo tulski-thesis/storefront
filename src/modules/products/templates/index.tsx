@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect, useRef, useState } from "react"
+import React, { useRef } from "react"
 import { ProductProvider } from "@lib/context/product-context"
 import { useIntersection } from "@lib/hooks/use-in-view"
 import ProductInfo from "@modules/products/templates/product-info"
@@ -8,7 +8,6 @@ import ProductTabs from "@modules/products/components/product-tabs"
 import RelatedProducts from "@modules/products/components/related-products"
 import ImageGallery from "@modules/products/components/image-gallary"
 import MobileActions from "@modules/products/components/mobile-actions"
-import ProductOnboardingCta from "@modules/products/components/product-onboarding-cta"
 import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 
 type ProductTemplateProps = {
@@ -16,16 +15,9 @@ type ProductTemplateProps = {
 }
 
 const ProductTemplate: React.FC<ProductTemplateProps> = ({ product }) => {
-  const [isOnboarding, setIsOnboarding] = useState<boolean>(false)
-
   const info = useRef<HTMLDivElement>(null)
 
   const inView = useIntersection(info, "0px")
-
-  useEffect(() => {
-    const onboarding = window.sessionStorage.getItem("onboarding")
-    setIsOnboarding(onboarding === "true")
-  }, [])
 
   return (
     <ProductProvider product={product}>
@@ -37,7 +29,6 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({ product }) => {
           className="small:sticky small:top-20 w-full py-8 small:py-0 small:max-w-[344px] medium:max-w-[400px] flex flex-col gap-y-12"
           ref={info}
         >
-          {isOnboarding && <ProductOnboardingCta />}
           <ProductInfo product={product} />
           <ProductTabs product={product} />
         </div>

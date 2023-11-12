@@ -671,22 +671,6 @@
     dotenv "^16.1.4"
     knex "2.4.2"
 
-"@medusajs/product@^0.2.0":
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/@medusajs/product/-/product-0.2.1.tgz"
-  integrity sha512-TrWB12OVwwuKg+4+t15Vv+nUa+8izmjOEbti3FAWEQqhacrr+8zLvM0TGxxrcYHLkwHPzyYSz8ljCM8E8IaeFg==
-  dependencies:
-    "@medusajs/modules-sdk" "^1.11.0"
-    "@medusajs/types" "^1.11.1"
-    "@medusajs/utils" "^1.10.1"
-    "@mikro-orm/core" "5.7.12"
-    "@mikro-orm/migrations" "5.7.12"
-    "@mikro-orm/postgresql" "5.7.12"
-    awilix "^8.0.0"
-    dotenv "^16.1.4"
-    knex "2.4.2"
-    lodash "^4.17.21"
-
 "@medusajs/types@^1.11.1":
   version "1.11.1"
   resolved "https://registry.npmjs.org/@medusajs/types/-/types-1.11.1.tgz"
@@ -1027,6 +1011,13 @@
   dependencies:
     "@tanstack/query-core" "4.35.3"
     use-sync-external-store "^1.2.0"
+
+"@tulski/bot-client@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@tulski/bot-client/-/bot-client-1.2.0.tgz#6af38f9150ce41ec06840943c31123b2f50174ec"
+  integrity sha512-+6i4O4hdwk9EoMaeU00hZNAhoUyn5/FQfwN6PRiiFT5pKHHuOfEmc1Gnh4q3WdSeBXsmHz7f3nQbWaZdliRDrw==
+  dependencies:
+    fpcollect "^1.0.5"
 
 "@types/argparse@1.0.38":
   version "1.0.38"
@@ -3423,6 +3414,11 @@ forwarded@0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz"
   integrity sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==
+
+fpcollect@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/fpcollect/-/fpcollect-1.0.5.tgz"
+  integrity sha512-IZBlcncoRT+NDIGGYIA9TQtvnNA2cKhu/6Q5BhyY+13QskgI5u7URDiHFUjNjeumJbbhpf8/q8YlbhbJ6cN+bA==
 
 fraction.js@^4.2.0:
   version "4.3.6"

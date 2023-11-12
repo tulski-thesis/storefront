@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Shop all available models only at the tulski. Worldwide Shipping. Secure Payment.",
 }
 
-const Home = async () => {
+const Home = () => {
   return (
     <>
       <Hero />
