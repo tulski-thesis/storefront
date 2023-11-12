@@ -31,7 +31,7 @@
     "@medusajs/pricing": "^0.0.3",
     "@meilisearch/instant-meilisearch": "^0.7.1",
     "@tanstack/react-query": "^4.22.4",
-    "@tulski/bot-client": "^1.2.0",
+    "@tulski/bot-client": "^1.3.0",
     "clsx": "^1.1.1",
     "lodash": "^4.17.21",
     "medusa-react": "^9.0.0",

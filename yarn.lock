@@ -1012,10 +1012,10 @@
     "@tanstack/query-core" "4.35.3"
     use-sync-external-store "^1.2.0"
 
-"@tulski/bot-client@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@tulski/bot-client/-/bot-client-1.2.0.tgz#6af38f9150ce41ec06840943c31123b2f50174ec"
-  integrity sha512-+6i4O4hdwk9EoMaeU00hZNAhoUyn5/FQfwN6PRiiFT5pKHHuOfEmc1Gnh4q3WdSeBXsmHz7f3nQbWaZdliRDrw==
+"@tulski/bot-client@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@tulski/bot-client/-/bot-client-1.3.0.tgz#7c9e67880ad1866e6344d8a833d0a14e0b76817d"
+  integrity sha512-ZZcIQeB4cwT9fA40x0brMvpf2VvreK8pjGvwj8/B+exEGGAH3mZzpR+2oY1JriJukrNr/dkh3Syz6SOnB6nFsg==
   dependencies:
     fpcollect "^1.0.5"
 
