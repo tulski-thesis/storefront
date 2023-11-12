@@ -7,7 +7,7 @@ import { medusaRequestHeaders } from "@lib/medusa-fetch"
 import { useMedusa } from "medusa-react"
 import SkeletonCollectionPage from "@modules/skeletons/templates/skeleton-collection-page"
 
-const BOT_ENABLED = process.env.NEXT_PUBLIC_BOT_ENABLED || false
+const BOT_ENABLED = process.env.NEXT_PUBLIC_BOT_ENABLED === "true"
 const BOT_API = process.env.NEXT_PUBLIC_BOT_API_URL || "http://localhost:3030"
 const BOT_HEADER_KEY = process.env.NEXT_PUBLIC_BOT_HEADER || "x-bot-id"
 const BOT_STORAGE_KEY = process.env.NEXT_PUBLIC_BOT_STORAGE || "bot-report"
