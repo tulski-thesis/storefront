@@ -61,6 +61,8 @@ export const BotDetectionProvider = ({
   useEffect(() => {
     if (BOT_ENABLED && !result) {
       analyze()
+    } else {
+      setupHeader()
     }
   }, [])
 
