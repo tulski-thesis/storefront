@@ -54,7 +54,7 @@ export async function getProductsList({
   response: { products: PricedProduct[]; count: number }
   nextPage: number
 }> {
-  const limit = queryParams.limit || 36
+  const limit = queryParams.limit || 24
 
   const { products, count, nextPage } = await medusaRequest(
     "GET",
